@@ -1456,7 +1456,7 @@ License: MIT
 			if (!input)
 				return returnable();
 
-			// Rename headers if there are duplicates
+			// Rename headers if there are duplicates ----
 			if (config.header)
 			{
 				var firstLine = input.split(newline)[0];
