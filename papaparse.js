@@ -1459,6 +1459,7 @@ License: MIT
 			// Rename headers if there are duplicates ----
 			if (config.header)
 			{
+				console.log("Renaming headers");
 				var firstLine = input.split(newline)[0];
 				var headers = firstLine.split(delim);
 				var separator = '_';
